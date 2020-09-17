@@ -31,8 +31,8 @@ namespace netcore
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World你你你你你好好好吗");
+                { 
+                    await context.Response.WriteAsync("Hello World你你你你你好好好吗gaiga");
                 });
             });
         }
